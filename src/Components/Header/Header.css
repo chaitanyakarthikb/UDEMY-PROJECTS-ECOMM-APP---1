@@ -1,0 +1,92 @@
+header{
+  background-color: black;
+  color: white;
+  padding: 0.6rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-flex-align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity{
+  font-size: 1.5rem;
+  padding-left: 5px;
+}
+
+
+/* ==========================Left Content======================== */
+.leftContent{
+  display: flex;
+  align-items: center;
+}
+
+.leftContent h1{
+  margin-left: 0.5rem;
+}
+/* ==========================Middle Content ===================== */
+.centerContent{
+  width: 50%;
+}
+
+.centerContent input{
+  width: 90%;
+  padding: 0.48rem 0.4rem;
+  font-size: 1rem;
+}
+
+.centerContent .searchIcon{
+  background-color: #ffa315;
+  padding: 0.37rem 0.4rem;
+  color: black;
+  cursor: pointer;
+}
+
+/* ==========================Right Content ====================== */
+.rightContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding: 0 1rem;
+}
+
+/* ===============================MEDIA QUERY */
+
+
+
+
+@media (max-width:686px) {
+.hidden_on_mobile{
+  display: none;
+}
+
+.rightContent{
+  /* background-color: aqua; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.centerContent{
+  width: 45%;
+  margin-left: 1rem;
+}
+
+.leftContent h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+header{
+  background-color: black;
+  color: white;
+  padding: 0.6rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+}
