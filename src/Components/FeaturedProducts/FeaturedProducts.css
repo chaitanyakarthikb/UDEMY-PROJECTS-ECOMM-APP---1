@@ -1,0 +1,19 @@
+.featuredProductsHeading{
+  background-color: aliceblue;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.display-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.featuredProductsSection{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}

@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* ==========================HELPER CLASSES======================= */
+.text-align-center{
+  width: 100%;
+  text-align: center;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.grid-col-3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1.5rem;
+}
+
+.margin-top-1rem{
+  margin-top: 1rem;
+}
+
+.margin-bottom-1rem{
+  margin-bottom: 1rem;
+}
+
+.margin-top-halfrem{
+  margin-top: 0.5rem;
+}
+
+.margin-bottom-halfrem{
+  margin-bottom: 0.5rem;
+}
