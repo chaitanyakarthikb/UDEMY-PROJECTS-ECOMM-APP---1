@@ -4,16 +4,27 @@ import { BsGiftFill } from "react-icons/bs";
 import { IoSearchSharp } from "react-icons/io5";
 import { FaShoppingCart } from "react-icons/fa";
 import { isMobileResolution } from "../../Helpers";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const handleRedirectToCheckout = () => {
+    navigate("/checkout");
+  };
+  const handleRedirectToHome = () => {
+    navigate("/");
+  };
   return (
     <header>
       <div className="leftContent">
         <BsGiftFill
           className="cursor-pointer"
+          onClick={handleRedirectToHome}
           size={isMobileResolution() ? "1.5rem" : "2rem"}
         />
-        <h1 className="cursor-pointer">eShop</h1>
+        <h1 onClick={handleRedirectToHome} className="cursor-pointer">
+          eShop
+        </h1>
       </div>
 
       <div className="centerContent d-flex-align-center">
@@ -38,6 +49,7 @@ const Header = () => {
           <FaShoppingCart
             className="cursor-pointer"
             size={isMobileResolution() ? "1.5rem" : "2rem"}
+            onClick={handleRedirectToCheckout}
           />
           <span className="quantity cursor-pointer">3</span>
         </div>

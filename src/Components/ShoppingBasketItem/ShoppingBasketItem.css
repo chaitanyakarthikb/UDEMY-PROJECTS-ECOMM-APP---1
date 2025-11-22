@@ -1,0 +1,33 @@
+.shoppingBasketItem{
+  background-color: #e9faff;
+  display: flex;
+  justify-content:space-between ;
+  width: 75%;
+  align-items: center;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 10px 10px 10px rgba(54, 50, 50, 0.3);
+}
+
+.shoppingBasketItemImage{
+  width:20%;
+}
+
+.shoppingBasketItemImage img{
+  width: 100%;
+}
+
+.shoppingBasketQuantity{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppingBasketItemInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
