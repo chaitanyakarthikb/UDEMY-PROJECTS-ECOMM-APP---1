@@ -1,0 +1,13 @@
+.productContainer{
+  background-color: #f4fbff;
+  /* height: 45%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.productContainer img{
+  width: 65%;
+}
