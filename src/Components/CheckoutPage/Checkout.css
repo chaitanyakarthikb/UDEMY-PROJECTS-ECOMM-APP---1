@@ -1,0 +1,13 @@
+.checkoutSection{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.shoppingBasket{
+  width:60%
+}
+.subtotal{
+  width: 30%;
+}
